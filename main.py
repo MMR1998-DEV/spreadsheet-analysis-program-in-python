@@ -38,6 +38,8 @@ for product_row in range(2, product_list.max_row + 1):
 
     inv_total_price.value = inventiry * price
 
+inv_total_price_title = product_list.cell(1, 5)
+inv_total_price_title.value = "Total Price"
 print(total_products_from_suppliers)
 print(total_value_per_suppliers)
 print(product_under_10)
